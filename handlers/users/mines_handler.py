@@ -78,5 +78,5 @@ async def get_mines_handlers(m: types.Message, state: FSMContext):
         else:
           await m.answer(f'‼ Недостаточно денег\n\n<b>💰 Ваш баланс: {round(user[1], 2)} RUB\nВведите целую сумму ставки от 10 ₽<b>')
       else:
-        await state.finish()
-        await m.answer('❌ Минимальная ставка 10 RUB игра отменена')
+        # await state.finish()
+        await m.answer('❌ Минимальная ставка 10 RUB, введите ')

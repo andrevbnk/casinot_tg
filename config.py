@@ -131,6 +131,7 @@ def create_config():
     config.set("Settings", "qiwi_address", "79610165162")
     config.set("Settings", "qiwi_token", "619rvF0IPYgA")
 
+
     with open(path, "w") as config_file:
         config.write(config_file)
 
