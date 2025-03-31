@@ -12,7 +12,7 @@ async def check_handler(m: types.Message):
     keyboard = types.InlineKeyboardMarkup()
     keyboard.add(types.InlineKeyboardButton(
             text="✅ Вступить",
-            url="https://t.me/+UKC0RlGKxt81YTE6"))
+            url="https://t.me/pepebet_tg_casino"))
     await m.answer('<b>♥ Добро пожаловать!\n\nЧтобы пользоваться ботом вам нужно вступить в чат:</b>',
         reply_markup=keyboard)
     
